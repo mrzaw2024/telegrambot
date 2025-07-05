@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: tronscan-telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
